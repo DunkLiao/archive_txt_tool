@@ -1,0 +1,9 @@
+# 執行環境：Python 3.10+（py7zr / rarfile 的最低需求）
+# 安裝：python -m pip install -r requirements.txt
+
+# 選用格式支援（未安裝時 .7z / .rar 會提示無法解壓縮）
+py7zr==1.1.4        # .7z 解壓縮（會一併安裝 brotli / pybcj / pyppmd / pycryptodomex 等相依套件）
+rarfile==4.5        # .rar 解壓縮（另需系統中有 unrar 或 bsdtar 可執行檔）
+
+# 打包免安裝執行檔用（僅開發/建置時需要）
+pyinstaller==6.21.0

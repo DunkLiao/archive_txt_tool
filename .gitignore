@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# 虛擬環境
+.venv/
+venv/
+env/
+ENV/
+
+# 套件建置產物
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- PyInstaller ----
+# 產生的資料夾與執行檔（保留 archive_txt_tool.spec 以便重現打包設定）
+build/
+dist/
+*.manifest
+
+# ---- 執行時暫存 ----
+*.log
+*.tmp
+~$*
+
+# ---- IDE / 編輯器 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- 作業系統 ----
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
